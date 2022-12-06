@@ -1,44 +1,68 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Grafos2_DijkstraCity
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 35<br>
+**Conteúdo da Disciplina**: Grafos 2<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 18/0023161  |  Luíz Gustavo Ferreira Rocha |
+| 19/0038969  |  Victor Hugo Carvalho Silva |
 
 ## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+&emsp;A solução apresentada aqui tem como foco encontrar os menores caminhos para todos os vértices de um grafo, informando o vértice de saída. Com o fim de exercitar os conhecimentos da dupla em relação ao conteúdo de Grafos 2, é utilizado o algoritmo de Dijkstra.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
+
+![Rodando a aplicação](screenshots/run.png)
+<br>
+![Rodando a aplicação](screenshots/grafo.png)
+
 
 ## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+**Linguagem**:Python 3.10.<br>
+**Libs do Python**:networkx e  matplotlib (Caso não tenha instalado)<br>
 
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
 
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+## Uso
+### DijkstraCity
+
+&emsp; Nesse problema é informado um grafo de antemão, então através da entrada do usuário com a vértice "fonte", encontram-se os menores caminhos para todos os outros vértices e o glafo é apresentado.
+
+#### Entrada
+
+&emsp; Vértice de saída.
+
+#### Saída
+
+&emsp; Distâncias entre o vértice de saída e os outros vértices;<br>
+
+##### Execute no terminal
+```
+python3 dijkstraCity.py 
+```
+##### Exemplo de Entrada
+~~~
+1
+~~~
+
+##### Exemplo de Saída
+~~~
+Menor distancia entre 1 e 0 = 4
+Menor distancia entre 1 e 1 = 0
+Menor distancia entre 1 e 2 = 8
+Menor distancia entre 1 e 3 = 15
+Menor distancia entre 1 e 4 = 22
+Menor distancia entre 1 e 5 = 12
+Menor distancia entre 1 e 6 = 12
+Menor distancia entre 1 e 7 = 11
+Menor distancia entre 1 e 8 = 10
+~~~
+<br><br>
+
+## Outros
+
+**OBS1:** O Vídeo apresentação se encontra na pasta outros deste repositório.
 
 
 
